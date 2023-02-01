@@ -1,0 +1,1 @@
+fun main() {    val a = readln().toInt();    val b = readln().toInt();    val c = readln().toInt();    // a.coerceAtLeast(b) -> max ni qaytaradi    val max = a.coerceAtLeast(b).coerceAtLeast(c)    println(max)}/*1.if12. Uchta son berilgan. Shu sonlarning kichigini aniqlovchi programma tuzilsin.# Kiruvchi ma'lumotlar1. 1 2 32. 5 6 53. 7 7 7Natija157 */
